@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(100, 148, 237);
+    align-items: center;
+}
+
+.subcontainer{
+    width: 900px;
+    color: #0080FF;
+    background-color: #252525;
+    border-radius: 40px;
+    padding: 20px 70px 20px; 
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+p{
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 50px;
+    color: #0080FF;
+}
+
+.container{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btncontainer{
+    display: flex;
+    align-items:center;
+}
+
+.btn{
+    background-color: #252525;
+    font-family: "Open Sans", sans-serif;
+    color: #0080FF;
+    font-size: 30px;
+    
+    width: 300px;
+    height: 65px;
+    border-radius: 20px;
+    box-shadow: 3px 3px rgba(20, 123, 220, 0.658);
+
+    margin-right: 20px;
+}
+
+.copybtn{
+    width: 45px;
+    height: 45px;
+}
